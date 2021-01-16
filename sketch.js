@@ -126,6 +126,7 @@ function draw() {
   block2.score();
   block3.score();
   block4.score();
+  block5.score();
 
 
 }
