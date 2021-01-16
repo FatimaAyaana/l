@@ -10,7 +10,7 @@ var polygon;
 var slingShot;
 var polygon_img, backgroundImg;
 var score=0;
-var bg = "light.jpg";
+var bg = "white";
 function preload(){
    getBackground();
   polygon_img=loadImage("polygon.png");
