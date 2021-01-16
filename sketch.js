@@ -10,7 +10,7 @@ var polygon;
 var slingShot;
 var polygon_img, backgroundImg;
 var score=0;
-var bg = "white";
+var bg = "cyan";
 function preload(){
    getBackground();
   polygon_img=loadImage("polygon.png");
@@ -150,7 +150,7 @@ async function getBackground(){
   var datetime=responseJSON.datetime;
   var hour=datetime.slice(11,13);
   if(hour>=06 && hour<=19){
-      bg="white";
+      bg="cyan";
   }
   else{
       bg="black";
